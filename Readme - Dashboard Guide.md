@@ -5,7 +5,7 @@ It streams real-time option prices, lets you place buy/sell trades instantly, ex
 
 It’s like a **flight simulator for traders**: you experience real market conditions, practice automation logic, and learn discipline, margin control, and cost-awareness.
 
-![Dashboard](Images/EXCEL.png)
+![Dashboard](Images/dashboard.png)
 
 ---
 
