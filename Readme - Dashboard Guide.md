@@ -14,8 +14,8 @@ It’s like a **flight simulator for traders**: you experience real market condi
 ### 🔹 Market Data Inputs (Excel Sheet)
 - **Spot Price LTP:** Live index spot price tick by tick.
 - **Synthetic ATM Strike:** Live index spot price tick by tick.
-- **Cell C2 (Lot Size):** Lot size of the selected index (e.g., Nifty = 75).
-- **Cell C3 (Max Lot/Order):** Default = 24. Larger orders are auto-split.  
+- **Cell C2 (Lot Size):** Lot size of the selected index (e.g., Nifty = 65).
+- **Cell C3 (Max Lot/Order):** Default = 27. Larger orders are auto-split.  
   Example → Entering 48 lots = 2 × orders of 24 lots (1800 qty each).
 - **Cell C4 (Expiry):** Current expiry contract (always most liquid).
 - **Cell C6 (Strike Price):** Custom strike entry (ATM ± 5 strikes visible).
@@ -72,6 +72,21 @@ To make trading fully automated, you can configure the type of order in **Cell C
 
 👉 **CMD must be active** when pressing keys.
 
+👉 **Usage of Reset Target** when pressing keys.
+- Reset Target set to Non-Zero means that target will be reset to that point after every trade exit
+- Reset Target set to Zero means that target will not be reset to any point after every trade exit - Previous Target will be continue
+
+- CE Buy with Zero Target (No Target) → `Z + LEFT KEY`
+- CE Buy with Target as in the Target Cell → `Z + UP KEY`
+- CE Buy with Target as 2 Points → `Z + RIGHT KEY`
+
+- PE Buy with Zero Target (No Target) → `X + LEFT KEY`
+- PE Buy with Target as in the Target Cell → `X + UP KEY`
+- PE Buy with Target as 2 Points → `X + RIGHT KEY`
+
+- CE-PE Buy with Zero Target (No Target) → `B + LEFT KEY`
+- CE-PE Buy with Target as in the Target Cell → `B + UP KEY`
+- CE-PE Buy with Target as 2 Points → `B + RIGHT KEY`
 ---
 
 ## 🔹 Target & Stop Loss Settings
