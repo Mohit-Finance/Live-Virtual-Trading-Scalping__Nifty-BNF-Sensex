@@ -3,7 +3,7 @@
 Imagine this: the market is live, prices are flashing, options are moving tick by tick, and you have the power to buy or sell instantly — but with zero fear of losing money.  
 That’s exactly what this Virtual Trading Dashboard gives you.  
 It’s like a flight simulator for traders — you experience everything from entries, exits, profits, losses, margin, and even brokerage deductions… but without risking a single rupee.
-
+![Dashboard](Images/dashboard.png)
 ---
 
 ## 🕹 Step Into the Market Like a Real Trader
