@@ -9,6 +9,20 @@ It’s like a **flight simulator for traders**: you experience real market condi
 
 ---
 
+## 🎥 Live Demo Video
+
+Watch the complete working demo of the **Virtual Options Trading Dashboard** here:
+
+👉 https://youtu.be/PKeKtIbtSZM
+
+This video shows:
+- Live option price streaming
+- Manual & automated order execution
+- Breakout / breakdown logic in action
+- Target & Stop-Loss behavior
+- Real-time P&L with brokerage deduction
+
+
 ## 🗂 Dashboard Overview
 
 ### 🔹 Market Data Inputs (Excel Sheet)
