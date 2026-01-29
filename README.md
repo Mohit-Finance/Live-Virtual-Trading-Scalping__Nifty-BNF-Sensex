@@ -6,6 +6,14 @@ It’s like a flight simulator for traders — you experience everything from en
 
 ![Dashboard](Images/dashboard.png)
 ---
+## 🎥 Live Demo (Virtual Trading Dashboard)
+
+The following video demonstrates the **Virtual Trading Dashboard running on live market data**, showcasing real-time option price updates, trade execution flow, P&L calculation, and simulated brokerage impact.
+
+▶️ https://youtu.be/PKeKtIbtSZM
+
+> Recorded during live market hours.  
+> Data shown is real-time, not replayed or simulated.
 
 ## 🕹 Step Into the Market Like a Real Trader
 
