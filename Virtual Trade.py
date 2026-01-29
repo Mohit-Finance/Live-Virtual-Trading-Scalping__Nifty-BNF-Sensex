@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import json
+import ctypes
 import threading
 import webbrowser
 import requests
@@ -25,6 +26,16 @@ excel_lock = threading.Lock()
 access = None
 no_login_data_counter=10
 ##############################################################################
+def enable_ansi_support():
+    if os.name == 'nt':  # Check if the OS is Windows
+        kernel32 = ctypes.windll.kernel32
+        hStdOut = kernel32.GetStdHandle(-11)  # Get handle to standard output
+        mode = ctypes.c_uint32()
+        kernel32.GetConsoleMode(hStdOut, ctypes.byref(mode))
+        mode.value |= 0x0004  # Enable virtual terminal processing
+        kernel32.SetConsoleMode(hStdOut, mode)
+
+enable_ansi_support()
 
 tdate = datetime.now().date()
 code = None
@@ -391,7 +402,7 @@ while not live_data:
 # app.display_alerts = False
 # wb = app.books.open(f'Scapling.xlsx')
 
-wb = xw.Book('Credentials/Scalping - Virtual.xlsx')
+wb = xw.Book('Scalping - Virtual.xlsx')
 nifty = wb.sheets('Nifty')
 bnf = wb.sheets('Bank-Nifty')
 sensex = wb.sheets('Sensex')
